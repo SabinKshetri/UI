@@ -1,0 +1,128 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-family: 'Poppins', sans-serif;
+font-weight: 50px;}
+.top{
+    line-height: 40px;
+    background: #fef7f6;
+
+
+}
+.con{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+
+}  
+ nav ul li{
+
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    padding: 5px ;
+}  
+a img{
+    padding-top: 20px;
+}
+.icon{
+    padding-top: 20px;
+}
+.banner{
+    background: url(../img/bg-1.jpg);
+    height: 63vh;
+    
+    
+    
+}
+.left{
+    flex-basis: 50%;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.left h1{
+    font-size: 55px;
+
+}
+.left h2{
+    font-size: 28px;
+    
+    
+}
+.right{
+    flex-basis: 50%;
+
+}
+.right img{
+    
+    width: 100%;
+}
+.left button{
+    padding: 20px;
+    background: #ff5d5d;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+
+}
+ .left button :hover{
+    background: #fff;
+    color: #ff5d5d;
+}
+.Block1 h1{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 35px;
+}
+.right1 img{
+    width: 95%;
+}
+.box1{
+    width: 200px;
+    height: 150px;
+    border: 0.5px solid #000;
+    background: #EAE2D8;
+    border-radius: 25px;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+.box1 img{
+    width: 50px;
+    height: 50px;
+    
+}
+footer{
+    padding: 10px;
+    background: #EAE2D8;
+    text-align: center;
+}
+footer h4{
+    font-weight: bold;
+    padding-top: 20px;
+}
+footer ul{
+    list-style: none;
+    text-align: start;
+}
+footer ul li{
+    line-height: 30px;
+}
+.copy{
+    text-align: center;
+    padding-bottom: 0%;
+}
+.pad{
+    padding: 14px;
+}
+    
